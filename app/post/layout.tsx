@@ -13,5 +13,5 @@ export default function PostLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <html lang="fr">{children}</html>;
+  return <html lang="en">{children}</html>;
 }

@@ -5,10 +5,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex h-full w-full flex-col">
-      <section className="grid h-full w-full grid-cols-12 place-items-center">
-        <MainSection />
-      </section>
-    </div>
+    <section className="col-span-8 h-full w-full p-10">
+      <MainSection />
+    </section>
   );
 }

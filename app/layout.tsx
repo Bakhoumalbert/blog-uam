@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Header />
-      <div className="grid h-full w-full grid-cols-12 place-items-center">
+      <div className="grid grid-cols-12">
         {children}
         <Sidebar />
       </div>

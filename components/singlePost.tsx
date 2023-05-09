@@ -1,6 +1,6 @@
 export const SinglePost = () => {
   return (
-    <div className="col-span-8 h-full w-full space-y-4 border-r border-gray-300 p-12">
+    <div className="col-span-9 h-full w-full space-y-4 border-r border-gray-300 p-12">
       <div className="h-72 w-full rounded-xl bg-gray-300"></div>
       <h1>Titre</h1>
       <div className="flex flex-row justify-between">
